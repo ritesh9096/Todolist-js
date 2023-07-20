@@ -5,7 +5,7 @@ const messagespan = document.querySelector(".message span");
 const searchtask = document.querySelector(".search");
                   
 function updatemassage() {
-  const textcontent = tasks.children.length;
+  const textcontent = tasks.children.length;.  
 
   messagespan.textContent = `You have ${textcontent} pending tasks`;
 }
